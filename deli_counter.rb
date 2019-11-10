@@ -16,6 +16,7 @@ def take_a_number(katz_deli, name)
   
   if katz_deli.length < 1
   katz_deli << name
+  position = katz_deli.index(name)
   
-  puts "Welcome, #{name}. You are number #{katz_deli.index(name) + 1} in line."
+  puts "Welcome, #{name}. You are number #{position} in line."
 end
