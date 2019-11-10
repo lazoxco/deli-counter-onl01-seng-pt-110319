@@ -23,4 +23,10 @@ def take_a_number(katz_deli, name)
   #   position = katz_deli.index(name)
   #   puts "Welcome, #{name}. You are number #{position + 1} in line."
   # end
+  
+  array.push(name)
+  position = 1 
+  
+  puts "Welcome #{name}. You are number #{position}"
+  position += 1
 end
