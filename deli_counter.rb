@@ -13,6 +13,9 @@ def line(array)
 end
 
 def take_a_number(katz_deli, name)
+  
+  if katz_deli.length < 1
   katz_deli << name
-  puts "Welcome, #{name}. You are number 1 in line."
+  
+  puts "Welcome, #{name}. You are number #{katz_deli.index + 1} in line."
 end
