@@ -30,5 +30,4 @@ def now_serving(katz_deli)
   elsif katz_deli.empty? == false 
     puts "Currently serving #{katz_deli.shift}."
   end
-    
 end
