@@ -30,6 +30,7 @@ def now_serving(katz_deli)
   elsif
     array.each do |name|
       puts "Currently serving #{name}."
+      
     end 
   end
     
