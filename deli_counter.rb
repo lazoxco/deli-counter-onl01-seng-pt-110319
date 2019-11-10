@@ -18,5 +18,9 @@ def take_a_number(katz_deli, name)
     katz_deli << name
     position = katz_deli.index(name)
     puts "Welcome, #{name}. You are number #{position + 1} in line."
+  else 
+    katz_deli << name 
+    position = katz_deli.index(name)
+    puts 
   end
 end
