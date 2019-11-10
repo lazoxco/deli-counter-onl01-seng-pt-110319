@@ -28,7 +28,9 @@ def now_serving(katz_deli)
   if katz_deli.empty? == true 
     puts "There is nobody waiting to be served!"
   elsif
-    puts ""
+    array.each do |name|
+      puts "Currently serving #{name}."
+    end 
   end
     
 end
