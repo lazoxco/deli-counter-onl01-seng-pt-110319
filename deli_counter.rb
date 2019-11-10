@@ -27,6 +27,6 @@ def take_a_number(katz_deli, name)
   array.push(name)
   position = array.index(name)
   
-  puts "Welcome #{name}. You are number #{position}"
+  puts "Welcome #{name}. You are number #{position + 1}"
 
 end
